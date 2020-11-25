@@ -11,6 +11,7 @@
 
   .project-wrapper {
     margin-bottom: 15rem;
+    font-family:'Fredoka One', cursive;
 
     @include respond(phone) {
       margin-bottom: 0rem;
@@ -52,6 +53,7 @@
     &__image {
       width: 90%;
       margin: 0 auto;
+      
 
       @include respond(tab-land) {
         width: 100%;
